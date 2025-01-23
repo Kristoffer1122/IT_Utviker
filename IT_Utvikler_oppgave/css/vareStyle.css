@@ -1,0 +1,22 @@
+.Vare {
+    margin: 20px;
+  height: 100px;
+  width: 98%;
+  background-color: aliceblue;
+  display:flex;
+  
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 30px;
+}
+
+.Vare > div {
+    margin-left: 120px;
+    width: 20%;
+}
+.vare-navn {
+  height: 30px;
+}
+
+

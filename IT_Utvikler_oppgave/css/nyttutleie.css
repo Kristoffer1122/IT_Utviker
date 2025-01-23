@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+  height: 100dvh;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#utleie-info {
+  height: 600px;
+  width: 500px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.utleie-header {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    font-size: larger;
+    height: 40px;
+    width: 300px;
+}

@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: #222;
+}
+#data-oversikt {
+  margin-top: 100px;
+  background-color: #222;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#vare-oversikt {
+  overflow: hidden;
+  height: 88dvh;
+  width: 75%;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.utleie-info {
+  height: 40px;
+  margin: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 25px;
+}
+.utleie-info > div {
+  margin-left: 120px;
+  width: 20%;
+}
+
+#ny-vare {
+  height: 200px;
+  width: auto;
+}
+
+.registrer-nytt-utleie {
+  height: 14dvh;
+  min-width: 370px;
+  background-color: #51d74d;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+.utlie-text {
+  margin-left: 110px;
+  height: 100px;
+  width: 80px;
+}
+.pluss {
+  text-decoration: none;
+  margin-top: -150px;
+  margin-left: 30px;
+  margin-right: -40px;
+  height: 100px;
+  width: 100px;
+  font-size: 200px;
+}
+a {
+    height: 100px;
+    width: 300px;
+    color: #fff;
+  text-decoration: none;
+}
